@@ -1,0 +1,20 @@
+{
+  "name": "faker_data_api",
+  "version": "1.0.0",
+  "description": "## Generates a JSON file with fake data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josefhedblom/FakerDataApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josefhedblom/FakerDataApi/issues"
+  },
+  "homepage": "https://github.com/josefhedblom/FakerDataApi#readme"
+}
