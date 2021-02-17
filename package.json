@@ -4,7 +4,7 @@
   "description": "## Generates a JSON file with fake data.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/josefhedblom/FakerDataApi/issues"
   },
-  "homepage": "https://github.com/josefhedblom/FakerDataApi#readme"
+  "homepage": "https://github.com/josefhedblom/FakerDataApi#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^5.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
