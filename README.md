@@ -1,4 +1,7 @@
-# FakerDataApi
+# FakerDataApi-Javascript
+# VERSION 1.0.0
+
+## Feel free to modify and add functions.
 
 ## Generates a JSON file with fake data.
 
