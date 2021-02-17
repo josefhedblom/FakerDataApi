@@ -32,6 +32,15 @@ app.get('/people', (req, res) => {
     });
 });
 
-app.get('/people/new', (req,res) => {})
+app.get('/people/new', (req,res) => {
+    let data = new Faker()
+    let newData = data.generateData();
+
+    fs.writeFile('./faker-data.json', newData, (err) => {
+        if (err) throw err;
+        console.log('Data written to file');
+    });
+    res.redirect('/people');
+})
 
 app.listen(3000);
