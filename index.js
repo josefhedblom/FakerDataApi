@@ -25,7 +25,12 @@ class Faker {
 }
 
 
-app.get('/people', (req, res) => {});
+app.get('/people', (req, res) => {
+    fs.readFile('./faker-data.json', (err, json) => {
+        let obj = JSON.parse(json);
+        res.json(obj);
+    });
+});
 
 app.get('/people/new', (req,res) => {})
 
